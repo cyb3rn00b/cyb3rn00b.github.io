@@ -1,0 +1,21 @@
+# Site settings
+title: Life Bytes
+header-img: img/home-bg.png
+email: samantha.slimmer@gmail.com
+copyright_name: cyb3rn00b
+description: > # this means to ignore newlines until "baseurl:"
+  The influence of technology on life
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 30315
+github_username:  cyb3rn00b
+learn_profile: cyb3rn00b
+email_username: samantha.slimmer@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
